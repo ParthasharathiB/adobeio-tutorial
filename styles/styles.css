@@ -263,6 +263,9 @@ main .section {
   main .section {
     padding: 0px 32px;
   }
+  #adobe-io {
+    padding-left: 35%;
+  }
 }
 
 @media (min-width: 900px) {
@@ -270,14 +273,19 @@ main .section {
     max-width: 1200px;
     margin: auto;
   }
+  #adobe-io {
+    padding-left: 43%;
+  }
 }
-
+@media (max-width: 480px) {
+  #adobe-io {
+    padding-left: 19%;
+  }
+}
 /* section metadata */
 main .section.highlight {
   background-color: #eeeeee;
   padding: 1px;
 }
 
-#adobe-io {
-  padding-left: 43%;
-}
+
